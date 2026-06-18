@@ -4,7 +4,7 @@ A dynamic, single-page e-commerce dashboard built using vanilla JavaScript, HTML
 
 ## Features
 
-- **Live Data Processing:** Fetches 20 unique items dynamically from the Fake Store API using standard JavaScript Promises.
+- **Live Data Processing:** Fetches 20 unique items dynamically from the Jaan Store API using standard JavaScript Promises.
 - **Dynamic UI Rendering:** Generates and appends product cards to the webpage grid using JavaScript DOM manipulation methods.
 - **Interactive Search:** Real-time text search that dynamically filters down products by title as you type.
 - **Category Filter Dropdown:** Instantly segment items by specific categories (Men's Clothing, Women's Clothing, Electronics, Jewelry).
