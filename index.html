@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-Commerce Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Jaan Store</h1>
+        <div class="cart-box">
+            Cart Count: <span id="cart-count">0</span>
+        </div>
+    </div>
+
+    <div class="stats-box">
+        <div class="card-stat">
+            <h3>Total Products</h3>
+            <p id="stat-total">0</p>
+        </div>
+        <div class="card-stat">
+            <h3>Average Price</h3>
+            <p id="stat-avg">$0.00</p>
+        </div>
+        <div class="card-stat">
+            <h3>Highest Price</h3>
+            <p id="stat-highest">$0.00</p>
+        </div>
+        <div class="card-stat">
+            <h3>Lowest Price</h3>
+            <p id="stat-lowest">$0.00</p>
+        </div>
+    </div>
+
+    <div class="filter-section">
+        <input type="text" id="search-input" placeholder="Search by name...">
+        
+        <select id="category-filter">
+            <option value="all">All</option>
+            <option value="men's clothing">Men's Clothing</option>
+            <option value="women's clothing">Women's Clothing</option>
+            <option value="electronics">Electronics</option>
+            <option value="jewelry">Jewelry</option>
+        </select>
+    </div>
+
+    <div id="status-message">Loading Products...</div>
+
+    <div id="products-grid" class="products-grid"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
